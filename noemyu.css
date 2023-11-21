@@ -1,0 +1,94 @@
+/* CSS untuk tata letak utama */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8efef;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    background-color: #f8f3f3;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 40px;
+  }
+  
+  /* CSS untuk judul utama */
+  h1 {
+    font-size: 36px;
+    color: #3498db;
+    margin-bottom: 20px;
+  }
+  
+  /* CSS untuk deskripsi tim */
+  p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* CSS untuk kartu atau panel */
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .card-bio:hover {
+    transform: scale(1.05);
+    animation: blinking 1s infinite;
+    border-color: #e937d7;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    border-color: #e937d7;
+  }
+  /* CSS untuk gambar dalam kartu */
+  .card img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* CSS untuk tombol "Baca Selengkapnya" */
+  .button {
+    background-color: #d9e6ef;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #e937d7;
+    color: #fff;
+  }
+  
+  /* CSS untuk tautan teks */
+  a {
+    color: #7b7272;
+    border-color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: #e937d7;
+    
+  }
+
+  .card-porto {
+    position: relative;
+
+  }

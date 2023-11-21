@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="noemyu.css">
+  <link rel="stylesheet" type="text/css" href="barcanub.css">
+  <style>
+    .column {
+      display: inline-block;
+      width: 30%; /* You can adjust the width as per your design */
+      margin: 10px;
+    }
+    .title-word {
+      animation: color-animation 4s linear infinite;
+    }
+    
+    .title-word-1 {
+      --color-1: #696969;
+      --color-2: #A9A9A9;
+      --color-3: #DCDCDC;
+    }
+    
+    .title-word-2 {
+      --color-1: #B0C4DE;
+      --color-2: #ACCFCB;
+      --color-3: #17494D;
+    }
+    
+    .title-word-3 {
+      --color-1: #A9A9A9;
+      --color-2: #DCDCDC;
+      --color-3: #696969;
+    }
+    
+    .title-word-4 {
+      --color-1: #3D8DAE;
+      --color-2: #DF8453;
+      --color-3: #000000;
+    }
+    
+    @keyframes color-animation {
+      0%    {color: var(--color-1)}
+      32%   {color: var(--color-1)}
+      33%   {color: var(--color-2)}
+      65%   {color: var(--color-2)}
+      66%   {color: var(--color-3)}
+      99%   {color: var(--color-3)}
+      100%  {color: var(--color-1)}
+    }
+    
+    /* Here are just some visual styles. 🖌 */
+    
+    .container-title {
+      display: grid;
+      place-items: center;  
+      text-align: center;
+      height: 50vh
+    }
+    
+    .title-title {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 800;
+      font-size: 4.5vw;
+      text-transform: uppercase;
+    }
+    @keyframes blinking {
+      0% {
+        background-color: #c0e0e2;
+        border: 3px solid #666;
+      }
+      100% {
+        background-color: #e232f6;
+        border: 3px solid #666;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="background-container">
+    <div class="background-animation">
+<div class="container container-title">
+  <h2 class="title title-title">
+    <span class="title-word title-word-1">Welcome</span>
+    <span class="title-word title-word-2">To</span>
+    <span class="title-word title-word-3">GVR</span>
+    <span class="title-word title-word-4">Company</span>
+  </h2>
+  <p>GVR Company adalah perusahaan teknologi inovatif yang 
+    berdedikasi untuk menghadirkan solusi canggih dan terkini kepada pelanggan kami.
+    Dengan berfokus pada penelitian dan pengembangan, kami memimpin dalam merancang 
+    produk dan layanan yang membantu mengubah cara dunia bekerja, berkomunikasi, dan berinteraksi.</p>
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="card card-bio">
+      <img src="cil.jpg" alt="Foto Anggota 1" width="80%">
+      <div class="container">
+        <h2>Gilang Al Raffi</h2>
+        <p class="title">Front End</p>
+        <p><strong>Skills:</strong> Desain Grafis, Pengembangan Web, UI/UX Desain</p>
+        <p><strong>Pengalaman Kerja:</strong> Data Analyst di Perusahaan Shopee selama 3 tahun.</p>
+        <p><strong>Kontak:</strong> 
+          <br>Nomor Telepon: +123456789
+          <br>Email: gilangal@gmail.com
+        </p>
+        <a href="https://www.instagram.com/efgilangal/" class="button">Contact for me</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card card-bio">
+      <img src="vto.jpg" alt="Foto Anggota 2" >
+      <div class="container">
+        <h2>Muhammad Vito Aristawidya</h2>
+        <p class="title">Full Stack Developer</p>
+        <p><strong>Skills:</strong> JavaScript, PHP, Java, HTML, CSS, XML</p>
+        <p><strong>Pengalaman Kerja:</strong> FullStack Developer di Google selama 5 tahun.</p>
+        <p><strong>Kontak:</strong> 
+          <br>Nomor Telepon: +123456789
+          <br>Email: <a href="#"target="_blank">m.vitoariesta@gmail.com</a>
+        </p>
+        <a href="hhttps://www.linkedin.com/in/muhammad-vito-aristawidya-362549191/" class="button">Contact for me</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card card-bio">
+      <img src="mastio.jpg" alt="Foto Anggota 3">
+      <div class="container">
+        <h2>Raditio Ananto Hargiyanto</h2>
+        <p class="title">Software Engineer</p>
+        <p><strong>Skills:</strong> Problem Solving, Semua Bahasa Pemrograman</p>
+        <p><strong>Pengalaman Kerja:</strong> Software Engineer di Tokopedia selama 4 tahun.</p>
+        <p><strong>Kontak:</strong> 
+          <br>Nomor Telepon: +123456789
+          <br>Email: <a href="#"target="_blank">raditioaja@gmail.com</a>
+        </p>
+        <a href="https://www.instagram.com/raditioah/" class="button">Contact for me</a>
+      </div>
+    </div>
+  </div>
+
+<div><h1><center>OUR PORTOFOLIO</center></h1></div>
+<div class="row">
+    <div class="card card-porto">
+        <h2>Mini Project Python</h2>
+        <img src="perpustakaan.jpg" width="25%" >
+        <p>Project ini berisikan mini perpustakaan</p>
+        </p>
+        <a target="_blank" href="https://colab.research.google.com/drive/1u-c-hyXgLK1QDaYhJUT49VDF8_7UjNwY?usp=sharing" class="button">Tap to See</a>
+    </div>
+
+    <div class="row">
+      <div class="card card-porto">
+          <h2>Mini Project Database</h2>
+          <img src="database.jpg" alt="" width="25%">
+          <p>Project ini berisikan project berupa data</p>
+          </p>
+          <a target="_blank" href="http://localhost/phpmyadmin/index.php?route=/database/designer&db=orderentry_vito" class="button">Tap to See</a>
+      </div>
+
+      <div class="row">
+        <div class="card card-porto">
+            <h2>Final Project</h2>
+            <img src="lapor.jpg" alt="" width="25%">
+            <p>Project ini berisikan laporan akhir</p>
+            </p>
+            <a target="_blank" href="Muhammad Vito Aristawidya_184220012_Laporan Kunjungan Industri.pdf" class="button">Tap to See</a>
+        </div>
+</div>
+</div>
+<div> 
+
+<footer>
+  &copy; Kelompok_Kacamata2023.
+</footer>
+</body>
+</html>
